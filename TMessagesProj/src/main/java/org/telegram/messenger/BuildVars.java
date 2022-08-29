@@ -23,7 +23,8 @@ public class BuildVars {
     public static int BUILD_VERSION = 2757;
     public static String BUILD_VERSION_STRING = "8.9.3";
     public static int APP_ID = 4;
-    public static String APP_HASH = "014b35b6184100b085b0d0572f9b5103";
+
+    public static String APP_HASH = "702aebd3955f1af6197ca8e213ee4c34";
 
     public static String SMS_HASH = isStandaloneApp() ? "w0lkcmTZkKh" : (DEBUG_VERSION ? "O2P2z+/jBpJ" : "oLeq9AcOZkT");
     public static String PLAYSTORE_APP_URL = "https://play.google.com/store/apps/details?id=org.telegram.messenger";
